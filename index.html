@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="public/css/reset.min.css">
+    <link rel="stylesheet" href="src/css/style.min.css">
+    <meta name="description" content="Сайт-портфолио junior frontend developer верстальщик"> 
+    <meta name="keywords" content="junior, frontend developer, портфолио, визитка"> 
+    <meta name="og:title" content="Диана Савельева | junior frontend developer/верстальщик"> 
+    <meta name="og:description" content="Сайт визитка"> 
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta name="theme-color" content="#fff7f0">
+    <meta property="og:site_name" content="Диана Савельева | junior frontend developer/верстальщик">
+
+    <!-- <meta property="og:url" content=""> -->     <!-- Адрес сайта -->
+    <!-- <meta name="og:image" content=""> -->     <!-- картинка для репоста -->
+
+</head>
+<body>
+    <header>
+        <nav class="flex">
+            <div>Проекты</div>
+            <div>Обо мне</div>
+            <div>Связаться</div>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h1>Диана Савельева<br/><span>junior frontend developer /<br/>верстальщик</span></h1>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div>Привет! Меня зовут Диана. Спасибо, что уделяете мне время. Здесь я постаралась удобно и кратко предоставить всю информацию о себе и своих навыках.</div>
+        <div class="grid-project">
+            <a href="#project1" class="pr1 flex"><div href="#project1">Анимированное приложение погоды<br/><span>пет-проект</span></div></a>
+            <a href="#project2" class="pr2 flex"><div href="#project2">Корпоративнвй сайт 5 в 1<br/><span>фриланс</span></div></a>
+            <a href="#project3" class="pr3 flex"><div href="#project3">Приложение-ежедневник<br/><span>пет-проект</div></a>
+        </div>
+        <div class="grid-comment">В портфолио представлены только собственные работы. Проекты из обучающих курсов не были включены</div>
+        <button onclick="location.href='#about-projects'" class="flex">Подробнее о проектах</button>
+        <button onclick="location.href='#article'" class="flex">Обо мне</button>
+        </section>
+
+        <section id="article">
+            <div class="article"><div class="change change1"></div><p>Обучаюсь фронтенд разработке с 2023 года. Ранее работала в промышленной компании, но в любой работе меня больше интересовали программы, интерфейсы, их настройки и администрирование. Среди IT-направлений нашла для себя наиболее интересное</p></div>
+            <div class="city">г. Санкт-Петербург</div>
+            <div class="grid-years">
+                <div class="year">2024</div><div>проект на фрилансе для транспортной компании Контэо</div>
+                <div class="year">2023-2024</div><div>самостоятельное обучение фронтенд разработке + курсы Udemy (ВЕБ-разработчик, JavaScript, JavaScript+React)</div>
+                <div class="year last">2019-2023</div><div class="last">работа в промышленной компании <div class="open">раскрыть</div></div>
+            </div>
+            <div class="more grid-years last" style="max-height: 0;">
+                <div class="year">2021-2023</div><div>специалист отдела обслуживания клиентов (отдел сбыта)</div>
+                <div class="year">2019-2021</div><div>специалист по документообороту отдела маркетинга и отдела персонала</div>
+                <div class="year">2019</div><div>стажер отдела маркетинга</div>
+            </div>  
+        </section>
+
+        <section class="skills">
+            <div class="part1">
+            <h2>Стэк</h2>
+            <div class="stack">
+                <div class="flex"><img src="public/icons/html.png" alt="html"><div class="stack-text">Верстка, семантика, 5html</div></div>
+                <div class="flex"><img src="public/icons/css.png" alt="css"><div class="stack-text">Верстка, css3, гриды, флексбокс, адаптивная/резиновая верстка, кроссбраузерность, PerfectPixel, оптимизация графики, анимации</div></div>
+                <div class="flex"><img src="public/icons/sass.png" alt="sass"><div class="stack-text">Использование препроцессоров sass, scss, ускорение и оптимизация работы</div></div>
+                <div class="flex"><img src="public/icons/js.png" alt="js"><div class="stack-text">Динамика веб-страниц на нативном js  +использование библиотек</div></div>
+                <div class="flex"><img src="public/icons/react.png" alt="react"><div class="stack-text">Библиотека React,классы, хуки + библиотеки (Routes), создание более сложной логики приложений</div></div>
+                <div><!-- <img src="" alt=""><div>Пустая</div> --></div>
+            </div>
+        </div>
+        <div class="part2">
+            <h2>Инструменты</h2>
+            <div class="flex tools">
+                <div><img src="public/icons/vscode.png" alt="VS Code"><div>VS Code</div></div>
+                <div><img src="public/icons/figma.png" alt="Figma"><div>Figma</div></div>
+                <div><img src="public/icons/git.png" alt="Git"><div>Git</div></div>
+                <div><img src="public/icons/webpack.png" alt="Webpack"><div>Webpack</div></div>
+                <div><img src="public/icons/github.png" alt="GitHub"><div>GitHub</div></div>
+            </div>
+        </div>
+        </section>
+
+        <section id="about-projects" class="about-projects">
+            <div id="project1" class="project project1"><h3>Weather Animated App (пет-проект)</h3>
+            <div class="buttons flex">
+                <div class="flex active">Описание</div>
+                <div class="flex">Технологии</div>
+            </div>
+            <div style="position: relative;">
+            <div class="content active">
+                <p>Приложение Погоды (React) с поисковой строкой и выпадающим списком населенных пунктов. Детализированный прогноз на текущее время, почасовой прогноз (карусель, свайп всегда открывает целый элемент) и прогноз на 4 дня (выбор из массива необходимых значений). Загрузка прогноза погоды в месте пользователя (при разрешении доступа к местоположению), загрузка последнего искомого населенного пункта из localStorage. Для поиска используется база данных населенных пунктов России. Анимации в зависимости от местного времени в запрашиваемом месте (день/ночь/восход/закат), облачности (облака, их количество и/или солнце), осадков (снег/дождь), скорости ветра (скорость анимации облаков), мерцание звезд (ночь в запрашиваемом месте + % облачности). Обработка форм (загрузка, ошибка). <span style="font-style: italic; font-weight: 600;">Единственная полностью бесплатная версия OpenWeather (Weather API) 2.5 устарела в июне 2024 и, к сожалению, может периодически выдавать ошибку запроса.</span></p>
+                <div class="flex slider" style="align-items: stretch;">
+                    <div class="flex prev slider-button disabled"><button class="prev flex color1"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                <div class="slider-list">
+                    <div class="slider-track flex">
+                        <div class="slide on"><img src="public/img/project_weather/visual/спб снег.png" alt="Визуал 1"></div>
+                        <div class="slide on"><img src="public/img/project_weather/visual/день+закат коллаж.png" alt="Визуал 2"></div>
+                        <div class="slide on"><img src="public/img/project_weather/visual/ночь коллаж.png" alt="Визуал 3"></div>
+                        <div class="slide on"><img src="public/img/project_weather/visual/адаптация коллаж.png" alt="Визуал 4"></div>
+                        <div class="slide on"><img src="public/img/project_weather/visual/ошибка и загрузка.png" alt="Визуал 5"></div>
+                    </div>
+                </div>
+                <div class="flex next slider-button"><button class="next flex color1"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+            </div>
+            <div class="flex links">
+                <a target="_blank" href="https://github.com/Diana-Sawelyewa/weather-app">GitHub</a>
+                <a target="_blank" href="https://www.figma.com/design/FwyBsiTfkrHlrphzmCnmse/Weather?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+                <a target="_blank" href="https://diana-sawelyewa.github.io/weather-app">Сайт</a>
+            </div>
+            </div>
+        </div>
+        <div style="position: relative;">
+            <div class="content">
+                <p>Использованы хуки (useState, useEffect, useRef), асинхронные запросы, объект даты, стилизованные элементы, два API (прогноз погоды и определение города по координатам пользователя), объекты, массивы, функции, условия и др. Запрос обновляет пропсы, данные и стили приложения. Для формирования списка (поиск начинается с двух символов) используется БД (json формат). Есть ручной ввод и валидация при некорректном наборе - совпадение по первым 3, 2 в кранем случае 1 символу (первое совпадение по БД). При разрешении доступа к местоположению вычисляется населенный пункт - в API геосервиса передаются координаты. Время определяется по местному времени запрашиваемого города (время бразера +- часовой пояс +- часовой пояс искомого города) и сравнивается со временем заката/рассчета из прогноза. <span style="font-style: italic; font-weight: 600;">Единственная полностью бесплатная версия OpenWeather (Weather API) 2.5 устарела в июне 2024 и, к сожалению, может периодически выдавать ошибку запроса.</span></p>
+                <div class="flex slider" style="align-items: stretch;">
+                    <div class="flex prev slider-button disabled"><button class="prev flex color1"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                <div class="slider-list">
+                    <div class="slider-track flex">
+                        <div class="slide on"><img src="public/img/project_weather/code/css стили.png" alt="Код 1"></div>
+                        <div class="slide on"><img src="public/img/project_weather/code/запросы.png" alt="Код 2"></div>
+                        <div class="slide on"><img src="public/img/project_weather/code/геопозиция + обработка данных.png" alt="Код 3"></div>
+                        <div class="slide on"><img src="public/img/project_weather/code/стилизация по прогнозу.png" alt="Код 4"></div>
+                        <div class="slide on"><img src="public/img/project_weather/code/поисковая строка + бд.png" alt="Код 5"></div>
+                        <div class="slide on"><img src="public/img/project_weather/code/карусель.png" alt="Код 6"></div>
+                    </div>
+                </div>
+                <div class="flex next slider-button"><button class="next flex color1"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+            </div>
+            <div class="flex links">
+                <a target="_blank" href="https://github.com/Diana-Sawelyewa/weather-app">GitHub</a>
+                <a target="_blank" href="https://www.figma.com/design/FwyBsiTfkrHlrphzmCnmse/Weather?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+                <a target="_blank" href="https://diana-sawelyewa.github.io/weather-app">Сайт</a>
+            </div>
+            </div>
+        </div>
+            </div>
+            <div id="project2" class="project project2"><h3>Корпоративный сайт транспортной компании Контэо (фриланс)</h3>
+            <div class="buttons flex">
+                <div class="flex">Описание</div>
+                <div class="flex active">Технологии</div>
+            </div>
+            <div style="position: relative;">
+            <div class="content active">
+            <p>Корпоративный сайт транспортной компании Контэо. Разработан дизайн (мобайл и десктоп) и контент на несколько страниц-лендингов. Реализованы слайдеры, табы, обработка отправки формы и ее состояний, маска ввода номера (библиотека), модальные окна, сайдбар. Использованы HTML, CSS, JS, PHP. Сайт адаптирован под все размеры экранов. Изображения разных форматов. Работа с правками клиента. Размещение на хостинге, работа с Яндекс.Вебмастер, Google Search Console.</p>
+            <div class="flex slider" style="align-items: stretch;">
+                <div class="flex prev slider-button disabled"><button class="prev flex color2"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+            <div class="slider-list">
+                <div class="slider-track flex">
+                    <div class="slide on"><img src="public/img/project_conteo/visual/коллаж дизайн.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/адаптация синий.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/главная+домен.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/адаптация зеленый.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/состояния формы.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/сто табы слуг.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_conteo/visual/сто слайдер.png" alt="Визуал 1"></div>
+                </div>
+            </div>
+            <div class="flex next slider-button"><button class="next flex color2"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+        </div>
+        <div class="flex links">
+            <a target="_blank" href="https://github.com/Diana-Sawelyewa/conteo-website">GitHub</a>
+            <a target="_blank" href="https://www.figma.com/design/seyu2ZfvmJxXIQ7cftSeY2/Conteo?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+            <a target="_blank" href="https://conteo.ru/">Сайт</a>
+        </div>
+            </div>
+            </div>
+            <div style="position: relative;">
+            <div class="content">
+                <p>Адаптивная верстка: флексбокс, гриды, относительные (%) значения, медиа-запросы по точкам останова. Динамика сайта на нативном JS. Функции, массивы, объекты, работа с обработчиками событий, fetch, асинхронные запросы, таймаут, условия, обработка клавиш (клавиатура), обращение к стилям и классам, события и др. Слайдеры реализованы с кнопками и свайпами, обратной прокруткой. Обработка формы js + php + css. Использование препроцессора SCSS, модулей js (webpack).</p>
+                <div class="flex slider" style="align-items: stretch;">
+                    <div class="flex prev slider-button disabled"><button class="prev flex color2"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                <div class="slider-list">
+                    <div class="slider-track flex">
+                        <div class="slide on"><img src="public/img/project_conteo/code/коллаж обработка формы.png" alt="Код 1"></div>
+                        <div class="slide on"><img src="public/img/project_conteo/code/код слайдера.png" alt="Код 2"></div>
+                        <div class="slide on"><img src="public/img/project_conteo/code/разные мелочи.png" alt="Код 3"></div>
+                        <div class="slide on"><img src="public/img/project_conteo/code/табы услуг.png" alt="Код 4"></div>
+                        <div class="slide on"><img src="public/img/project_conteo/code/архитектура + html.png" alt="Код 5"></div>
+                    </div>
+                </div>
+                <div class="flex next slider-button"><button class="next flex color2"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+            </div>
+            <div class="flex links">
+                <a target="_blank" href="https://github.com/Diana-Sawelyewa/conteo-website">GitHub</a>
+                <a target="_blank" href="https://www.figma.com/design/seyu2ZfvmJxXIQ7cftSeY2/Conteo?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+                <a target="_blank" href="https://conteo.ru/">Сайт</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div id="project3" class="project project3"><h3>Приложение ежедневник (пет-проект)</h3>
+            <div class="buttons flex">
+                <div class="flex active">Описание</div>
+                <div class="flex">Технологии</div>
+            </div>
+            <div style="position: relative;">
+            <div class="content active">
+            <p>Приложение Ежедневник включает несколько блоков, связанных между собой. Списки планов на день, месяц и год. Генерация календаря на месяц, год. Внесение/удаление пунктов в списки дел, маркировка дел внутри списков. Переходы  из/в год, месяц, день и между следующими/предыдущими датами, месяцами, годами. Возможность открытия в любом окне списка задач на год, месяц. Выделение текущего месяца и дня.</p>
+            <div class="flex slider" style="align-items: stretch;">
+                <div class="flex prev slider-button disabled"><button class="prev flex color3"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+            <div class="slider-list">
+                <div class="slider-track flex">
+                    <div class="slide on"><img src="public/img/project_diary/visual/календарь год.png" alt="Визуал 1"></div>
+                    <div class="slide on"><img src="public/img/project_diary/visual/месяц + механика тасков.png" alt="Визуал 2"></div>
+                    <div class="slide on"><img src="public/img/project_diary/visual/текстовый редактор в дне.png" alt="Визуал 3"></div>
+                </div>
+            </div>
+            <div class="flex next slider-button"><button class="next flex color3"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+        </div>
+        <div class="flex links">
+            <a href="https://github.com/Diana-Sawelyewa/diary">GitHub</a>
+            <a href="https://diana-sawelyewa.github.io/diary">Сайт</a>
+        </div>
+            </div>
+            </div>
+            <div style="position: relative;">
+            <div class="content">
+                <p>Использованы библиотека Routes, хуки (useState, useEffect). Отображение (вычисление и верстка) календаря с днями недели. Год, месяц и день - отдельные элементы, в которые добавлены элементы, осуществояющие работу с задачами (добавление, удаление). В работе со списками задач использованы методы массивов. Для текстового редактора (ежедневник в окне "День") использованы библиотеки draft-js, react-draft-wysiwyg. </p>
+                <div class="flex slider" style="align-items: stretch;">
+                    <div class="flex prev slider-button disabled"><button class="prev flex color3"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                <div class="slider-list">
+                    <div class="slider-track flex">
+                        <div class="slide on"><img src="public/img/project_diary/code/главный.png" alt="Код 1"></div>
+                        <div class="slide on"><img src="public/img/project_diary/code/элемент месяц.png" alt="Код 2"></div>
+                        <div class="slide on"><img src="public/img/project_diary/code/таск месяц.png" alt="Код 3"></div>
+                        <div class="slide on"><img src="public/img/project_diary/code/теккстовый редактор в дне.png" alt="Код 4"></div>
+                    </div>
+                </div>
+                <div class="flex next slider-button"><button class="next flex color3"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+            </div>
+            <div class="flex links">
+                <a href="https://github.com/Diana-Sawelyewa/diary">GitHub</a>
+                <a href="https://diana-sawelyewa.github.io/diary">Сайт</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="project project4"><h3>Сайт-лендинг Портфолио</h3>
+                <div class="buttons flex">
+                    <div class="flex active">Описание</div>
+                    <div class="flex">Технологии</div>
+                </div>
+                <div style="position: relative;">
+                <div class="content active">
+                <p>Дизайн-макет и верстка mobile first, адаптация под любую ширину устройства. Простая динамика - табы, слайдеры, форма. Стилизация наведения и активности кнопок. Отправка письма с сайта без php.</p>
+                <div class="flex slider" style="align-items: stretch;">
+                <div class="flex prev slider-button disabled"><button class="prev flex color4"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                <div class="slider-list">
+                    <div class="slider-track flex">
+                        <div class="slide on"><img src="public/img/project_portfolio/visual/смартфон общее.png" alt="Визуал 1"></div>
+                        <div class="slide on"><img src="public/img/project_portfolio/visual/смартфон состояния формы.png" alt="Визуал 2"></div>
+                        <div class="slide on"><img src="public/img/project_portfolio/visual/переход в модальное окно.png" alt="Визуал 3"></div>
+                        <div class="slide on"><img src="public/img/project_portfolio/visual/слайдер десктоп.png" alt="Визуал 4"></div>
+                        <div class="slide on"><img src="public/img/project_portfolio/visual/слайдер смартфон.png" alt="Визуал 5"></div>
+
+                    </div>
+                </div>
+                <div class="flex next slider-button"><button class="next flex color4"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+            </div>
+            <div class="flex links">
+                <a target="_blank" href="#">GitHub</a>
+                <a target="_blank" href="https://www.figma.com/design/yq17OHwZ0Dtv9zOdeGP8lJ/Portfolio?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+            </div>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <div class="content">
+                    <p> Адаптивная верстка mobile first - flexbox, grid, медиа запросы. Стили наведения и активности кнопок и ссылок. Слайдеры,табы, модальное окно (и изменение его цвета), форма (и ее состояния), кнопка подъема страницы, изменение аватара, сайдбар - нативный js. Отправка письма с сайта без php - с помощью сервиса EmailJS.</p>
+                    <div class="flex slider" style="align-items: stretch;">
+                        <div class="flex prev slider-button disabled"><button class="prev flex color4"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+                    <div class="slider-list">
+                        <div class="slider-track flex">
+                            <div class="slide on"><img src="public/img/project_portfolio/code/код 1.png" alt="Код 1"></div>
+                            <div class="slide on"><img src="public/img/project_portfolio/code/код 2.png" alt="Код 2"></div>
+                        </div>
+                    </div>
+                    <div class="flex next slider-button"><button class="next flex color4"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+                </div>
+                <div class="flex links">
+                    <a target="_blank" href="#">GitHub</a>
+                    <a target="_blank" href="https://www.figma.com/design/yq17OHwZ0Dtv9zOdeGP8lJ/Portfolio?m=auto&t=drtjjeR2JCtdO6cj-1">Макет (figma)</a>
+                </div>
+                </div>
+            </div>
+                </div>
+        </section>
+
+        <section class="contact">
+            <div class="text">Если у Вас есть пожелания или замечания по портфолио, буду рада обратной связи :) </div>
+            <form id="contact-form" action="#">
+                <div class="ready"><img src="public/icons/ready.svg" alt="Готово"><div>Ваше сообщение отправлено</div></div>
+                <div class="error"><img src="public/icons/error.svg" alt="Ошибка"><div>Произошла ошибка, сообщите об этом автору страницы</div></div>
+                <div class="loading"><img src="public/icons/loading.svg" alt="Загрузка"></div>
+                <textarea id="message" name="message" placeholder="Введите Ваше сообщение" maxlength="140"></textarea>
+                <button type="submit" class="flex">Отправить</button>
+            </form>
+            </section>
+            <section class="thanks">
+            <div>Спасибо за внимание</div>
+            <img src="public/img/cat.png" alt="котик">
+        </section>
+    </main>
+    <footer class="flex">
+    <a target="_blank" href="#" class="flex"><img src="public/icons/telegram.svg" alt="telegram"><div>Telegram</div></a>
+    <a target="_blank" href="#" class="flex"><img src="public/icons/hhru.svg" alt="hh.ru"><div>hh.ru</div></a>
+    <a target="_blank" href="https://github.com/Diana-Sawelyewa" class="flex"><img src="public/icons/github.svg" alt="github"><div>GitHub</div></a>
+    </footer>
+    <div class="sidebar">
+        <nav>
+        <ul>
+            <li><a href="#">Проекты</a></li>
+            <li><a href="#">Обо мне</a></li>
+            <li><a href="#">Связаться</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="modal">
+        <div class="close"><img src="public/icons/close.svg" alt="Х"></div>
+        <div class="flex" style="width: 100%; height: 100%;">
+    <div class="flex slider" style="align-items: stretch;">
+        <div class="flex prev slider-button"><button class="prev flex color1"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+    <div class="slider-list flex">
+        <div class="slider-track flex">
+            <div class="slide"><img src="public/img/project_weather/visual/спб снег.png" alt="Визуал 1"></div>
+            <div class="slide"><img src="public/img/project_weather/visual/день+закат коллаж.png" alt="Визуал 2"></div>
+            <div class="slide"><img src="public/img/project_weather/visual/ночь коллаж.png" alt="Визуал 3"></div>
+            <div class="slide"><img src="public/img/project_weather/visual/адаптация коллаж.png" alt="Визуал 4"></div>
+            <div class="slide"><img src="public/img/project_weather/visual/ошибка и загрузка.png" alt="Визуал 5"></div>
+        </div>
+    </div>
+    <div class="flex next slider-button"><button class="next flex color1"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color1"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_weather/code/css стили.png" alt="Код 1"></div>
+        <div class="slide"><img src="public/img/project_weather/code/запросы.png" alt="Код 2"></div>
+        <div class="slide"><img src="public/img/project_weather/code/геопозиция + обработка данных.png" alt="Код 3"></div>
+        <div class="slide"><img src="public/img/project_weather/code/стилизация по прогнозу.png" alt="Код 4"></div>
+        <div class="slide"><img src="public/img/project_weather/code/поисковая строка + бд.png" alt="Код 5"></div>
+        <div class="slide"><img src="public/img/project_weather/code/карусель.png" alt="Код 6"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color1"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color2"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_conteo/visual/коллаж дизайн.png" alt="Визуал 1"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/адаптация синий.png" alt="Визуал 2"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/главная+домен.png" alt="Визуал 3"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/адаптация зеленый.png" alt="Визуал 3"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/состояния формы.png" alt="Визуал 3"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/сто табы слуг.png" alt="Визуал 3"></div>
+        <div class="slide"><img src="public/img/project_conteo/visual/сто слайдер.png" alt="Визуал 3"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color2"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color2"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_conteo/code/коллаж обработка формы.png" alt="Код 1"></div>
+        <div class="slide"><img src="public/img/project_conteo/code/код слайдера.png" alt="Код 2"></div>
+        <div class="slide"><img src="public/img/project_conteo/code/разные мелочи.png" alt="Код 3"></div>
+        <div class="slide"><img src="public/img/project_conteo/code/табы услуг.png" alt="Код 4"></div>
+        <div class="slide"><img src="public/img/project_conteo/code/архитектура + html.png" alt="Код 5"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color2"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color3"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_diary/visual/календарь год.png" alt="Визуал 1"></div>
+        <div class="slide"><img src="public/img/project_diary/visual/месяц + механика тасков.png" alt="Визуал 2"></div>
+        <div class="slide"><img src="public/img/project_diary/visual/текстовый редактор в дне.png" alt="Визуал 3"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color3"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color3"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_diary/code/главный.png" alt="Код 1"></div>
+        <div class="slide"><img src="public/img/project_diary/code/элемент месяц.png" alt="Код 2"></div>
+        <div class="slide"><img src="public/img/project_diary/code/таск месяц.png" alt="Код 3"></div>
+        <div class="slide"><img src="public/img/project_diary/code/теккстовый редактор в дне.png" alt="Код 4"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color3"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+    <div class="flex prev slider-button"><button class="prev flex color4"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+    <div class="slider-track flex">
+        <div class="slide"><img src="public/img/project_portfolio/visual/смартфон общее.png" alt="Визуал 1"></div>
+        <div class="slide"><img src="public/img/project_portfolio/visual/смартфон состояния формы.png" alt="Визуал 2"></div>
+        <div class="slide"><img src="public/img/project_portfolio/visual/переход в модальное окно.png" alt="Визуал 3"></div>
+        <div class="slide"><img src="public/img/project_portfolio/visual/слайдер десктоп.png" alt="Визуал 4"></div>
+        <div class="slide"><img src="public/img/project_portfolio/visual/слайдер смартфон.png" alt="Визуал 5"></div>
+    </div>
+</div>
+<div class="flex next slider-button"><button class="next flex color4"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+<div class="flex slider" style="align-items: stretch;">
+<div class="flex prev slider-button"><button class="prev flex color4"><img class="prev" src="public/icons/arrow1.svg" alt="налево"></button></div>
+<div class="slider-list flex">
+<div class="slider-track flex">
+    <div class="slide"><img src="public/img/project_portfolio/code/код 1.png" alt="Код 1"></div>
+    <div class="slide"><img src="public/img/project_portfolio/code/код 2.png" alt="Код 2"></div>
+</div>
+</div>
+<div class="flex next slider-button"><button class="next flex color4"><img class="next" src="public/icons/arrow1.svg" alt="направо"></button></div>
+</div>
+    </div>
+    </div>
+    <button class="btn-up flex"><img src="public/icons/arrow.svg" alt="/\"></button>
+    <script src="public/js/bundle.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser/dist/email.min.js"></script>
+
+
+</body>
+</html>

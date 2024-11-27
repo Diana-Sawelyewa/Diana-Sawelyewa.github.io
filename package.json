@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "sass": "^1.80.6",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1"
+  }
+}
