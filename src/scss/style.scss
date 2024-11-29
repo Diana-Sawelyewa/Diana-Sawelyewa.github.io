@@ -111,9 +111,9 @@ button {
     margin: 10px 15px 25px 15px;
 }
 
-header nav.flex {
+/* header nav.flex {
     display: none;
-}
+} */
 
 
 .flex {
@@ -581,17 +581,17 @@ footer {
     transition: all 0.2s; 
 }
 .change1 {
-    background: url(../../public/img/frog.jpg) center center / cover no-repeat;
+    background: url(../../public/img/pic1.jpg) center center / cover no-repeat;
 }
 .change1:hover {
-    background: url(../../public/img/frog-beauty.jpg) center center / cover no-repeat;
+    background: url(../../public/img/pic2.jpg) center center / cover no-repeat;
 }
 
 .change2 {
-    background: url(../../public/img/frog-beauty.jpg) center center / cover no-repeat;
+    background: url(../../public/img/pic2.jpg) center center / cover no-repeat;
 }
 .change2:hover {
-    background: url(../../public/img/frog.jpg) center center / cover no-repeat;
+    background: url(../../public/img/pic1.jpg) center center / cover no-repeat;
 }
 
 form {
